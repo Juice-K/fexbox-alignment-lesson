@@ -1,0 +1,24 @@
+header {
+    color: darkorchid;
+}
+
+footer {
+    color: palevioletred
+}
+
+.container1 {
+    flex-basis: auto; 
+    flex-direction: initial; 
+
+    color: aquamarine;
+}
+
+.container2 {
+    
+    color: teal;
+}
+
+.container3 {
+    
+    color: aqua;
+}
