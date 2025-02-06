@@ -1,3 +1,10 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+
+}
+
 header {
     color: darkorchid;
 }
@@ -7,18 +14,44 @@ footer {
 }
 
 .container1 {
+    display: flex; 
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 25px; 
+    border: 4px black; 
+    justify-content: space-evenly;
     flex-basis: auto; 
     flex-direction: initial; 
 
     color: aquamarine;
 }
 
+    .box {
+        width: 200px; 
+        height: 200px; 
+        border: 2px solid black; 
+
+    }
+
+    .shelf {
+
+
+    }
+
+    .case {
+
+
+    }
+
+
 .container2 {
-    
+    display: flex; 
+
     color: teal;
 }
 
 .container3 {
-    
+    display: flex; 
+   
     color: aqua;
 }
